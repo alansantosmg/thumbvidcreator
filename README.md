@@ -13,7 +13,7 @@ Certifique-se que as imagens de origem possuem a extensão: png (preferencial), 
 ## Instruções de utilização 
 
 1. Coloque as imagens que irão originar os thumbs dentro da pasta entrada
-2. Clique 2 vezes no ícone "Criar thumbs"
+2. Execute o programa thumb.exe"
 3. Após o script terminar de rodar, pressione qualquer tecla para fechar a janela.
 4. Os thumbs estarão disponíveis na pasta de saída. 
 5. Mova os thumbs da pasta de saída para um local de sua preferência. 
