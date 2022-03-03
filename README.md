@@ -23,36 +23,50 @@ Certifique-se que as imagens de origem possuem a extensão: png (preferencial), 
 ## Funcionamento
 
 O programa realiza o redimensionamento (resize) da imagem original para 535x305 pixels. 
+
 É mantida a proporção de altura (305 pixels) que corresponde ao menor lado da imagem. 
+
 É utilizada uma opção de extensão para garantir que a imagem irá preencher 100% do tamanho especificado.
+
 É feito corte (crop) nas laterais da imagem afim de evitar distorção no redimensionamento para 535x305. 
+
 O corte ocorre proporcionalmente nas laterais do maior lado da imagem. 
-É adicionado (fill) 50% de black sobre a imagem para gerar efeito de opacidade para preto. 
+
+É adicionado (fill) 50% de black sobre a imagem para gerar efeito de opacidade para preto.
+
 É adicionada a imagem (compose over) de 1 botão de play c/ fundo transparente SOBRE a imagem redimensionada opaca gerada. 
+
 A imagem do botão é centralizada sobre a imagem redimensionada. 
+
 A imagem final é gravada na pasta saída.
+
 O programa repete a operação para todas as imagens da pasta entrada.
  
 
 ## Changelog
- 
-24/02/22 - Criação do script de conversão de arquivos png
-25/02/22 - Inclusão de opção de 50% de opacidade para black na imagem final
-25/02/22 - Correção que possibilita realizar o resize mantendo a proporção de altura e efetuando crop nas laterais. 
-26/02/22 - Inclusão de conversão para arquivos extensão jpg e jpeg
-26/02/22 - Limpeza do diretório do programa: Exclusão de utilitários e arquivos não utilizados no processo de conversão. 
-26/02/22 - Correção no path dos arquivos de programa de conversão. 
-26/02/22 - Simplificação do Leia-me.txt
-26/02/22 - Inclusão dos termos de licenciamento no leia-me.txt
+
+- 03/03/23 - Remoção de arquivos de teste na pasta de saída. 
+- 03/03/22 - Criação de repo no github
+- 03/03/22 - projeto renomeado para thumbvid creator. 
+- 03/03/22 - Leia-me.txt substituído por README.Md
+- 26/02/22 - Inclusão dos termos de licenciamento no leia-me.txt
+- 26/02/22 - Simplificação do Leia-me.txt
+- 26/02/22 - Correção no path dos arquivos de programa de conversão. 
+- 26/02/22 - Inclusão de conversão para arquivos extensão jpg e jpeg
+- 26/02/22 - Limpeza do diretório do programa: Exclusão de utilitários e arquivos não utilizados no processo de conversão.
+- 25/02/22 - Inclusão de opção de 50% de opacidade para black na imagem final
+- 25/02/22 - Correção que possibilita realizar o resize mantendo a proporção de altura e efetuando crop nas laterais. 
+- 24/02/22 - Criação do script de conversão de arquivos png
+
 
 ## Licenciamento
 
-Este script de conversão utiliza o sotware livre ImageMagick criado e distribuído por
-ImageMagick  Studio LLC sob os termos de licença Apache 2.0. 
+Este script de conversão utiliza o sotware livre ImageMagick criado e distribuído por ImageMagick  Studio LLC sob os termos de licença Apache 2.0. 
+
 O ImageMagick está disponível em https://imagemagick.org/
 
-ImageMagick is free software delivered as a ready-to-run binary distribution or as source code
-that you may use, copy, modify, and distribute in both open and proprietary applications. 
+ImageMagick is free software delivered as a ready-to-run binary distribution or as source code that you may use, copy, modify, and distribute in both open and proprietary applications. 
+
 It is distributed under a derived Apache 2.0 license.
 
 
