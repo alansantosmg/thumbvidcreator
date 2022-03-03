@@ -53,10 +53,10 @@ O programa repete a operação para todas as imagens da pasta entrada.
 - 26/02/22 - Simplificação do Leia-me.txt
 - 26/02/22 - Correção no path dos arquivos de programa de conversão. 
 - 26/02/22 - Inclusão de conversão para arquivos extensão jpg e jpeg
-- 26/02/22 - Limpeza do diretório do programa: Exclusão de utilitários e arquivos não utilizados no processo de conversão.
+- 26/02/22 - Exclusão de utilitários e arquivos não utilizados no processo de conversão.
 - 25/02/22 - Inclusão de opção de 50% de opacidade para black na imagem final
-- 25/02/22 - Correção que possibilita realizar o resize mantendo a proporção de altura e efetuando crop nas laterais. 
-- 24/02/22 - Criação do script de conversão de arquivos png
+- 25/02/22 - Correção p/ realizar o resize mantendo a proporção de altura e efetuando crop nas laterais. 
+- 24/02/22 - Criação do script de conversão de arquivos .png.
 
 
 ## Licenciamento
