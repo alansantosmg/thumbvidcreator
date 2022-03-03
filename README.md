@@ -70,7 +70,7 @@ ImageMagick is free software delivered as a ready-to-run binary distribution or 
 It is distributed under a derived Apache 2.0 license.
 
 
-### TO-DO AND KNOW BUGS
+### TO-DOs AND KNOWN BUGS
 
 1. Bug: ao iniciar geração mensagem somente cita arquivos png.
 2. Otimizar arquivo final para reduzir o tamanho em kb sem perda de qualidade.
