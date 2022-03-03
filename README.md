@@ -45,7 +45,7 @@ O programa repete a operação para todas as imagens da pasta entrada.
 
 ## Changelog
 
-- 03/03/23 - Remoção de arquivos de teste na pasta de saída. 
+- 03/03/22 - Remoção de arquivos de teste na pasta de saída. 
 - 03/03/22 - Criação de repo no github
 - 03/03/22 - projeto renomeado para thumbvid creator. 
 - 03/03/22 - Leia-me.txt substituído por README.Md

@@ -8,18 +8,18 @@ echo "======================="
 echo.
 echo. 
 echo "Criando thumbs:"
-cd ..\entrada
+cd "%~dp0\entrada"
 FOR %%f in (*.png) DO ( 
-..\program\magick.exe "%%f" -thumbnail "535x305^" -gravity center -extent 535x305 -fill black -colorize 50%% ..\program\btn\botao.png -gravity center -compose over -composite ..\saida\thumb_"%%f"
+"%~dp0\program\magick.exe" "%%f" -thumbnail "535x305^" -gravity center -extent 535x305 -fill black -colorize 50%% "%~dp0\program\btn\botao.png" -gravity center -compose over -composite "%~dp0\saida\thumb_%%f"
 echo %%f 
 )
 FOR %%f in (*.jpg) DO ( 
-..\program\magick.exe "%%f" -thumbnail "535x305^" -gravity center -extent 535x305 -fill black -colorize 50%% ..\program\btn\botao.png -gravity center -compose over -composite ..\saida\thumb_"%%f"
+"%~dp0\program\magick.exe" "%%f" -thumbnail "535x305^" -gravity center -extent 535x305 -fill black -colorize 50%% "%~dp0\program\btn\botao.png" -gravity center -compose over -composite "%~dp0\saida\thumb_%%f"
 echo %%f 
 )
 echo.
 FOR %%f in (*.jpeg) DO ( 
-..\program\magick.exe "%%f" -thumbnail "535x305^" -gravity center -extent 535x305 -fill black -colorize 50%% ..\program\btn\botao.png -gravity center -compose over -composite ..\saida\thumb_"%%f"
+"%~dp0\program\magick.exe" "%%f" -thumbnail "535x305^" -gravity center -extent 535x305 -fill black -colorize 50%% "%~dp0\program\btn\botao.png" -gravity center -compose over -composite "%~dp0\saida\thumb_%%f"
 echo %%f 
 )
 echo.
