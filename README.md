@@ -83,6 +83,7 @@ It is distributed under a derived Apache 2.0 license.
 9. Opção de gerar screnshot de arquivos de video.  
 10. Versão para linux.
 11. Modernizar a linguagem de script para python.
+12. Migração p/ cloud serverless 
 
 --
 Alan Santos - 25/02/2022
